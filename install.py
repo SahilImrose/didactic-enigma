@@ -1,7 +1,8 @@
-import launch
 import os
 import pkg_resources
 import sys
+sys.path.append("kaggle/working/stable-diffusion-webui")
+import launch
 from tqdm import tqdm
 import urllib.request
 
